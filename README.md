@@ -16,7 +16,9 @@ This is coding challenge for the company named BIGAPP Technologies. Problem and 
 
 ## Endpoint Details
 ### Problem 1
+
 **Endpoint**: ```http://localhost:3000/api/v1/smart-eq/equation-evaluator```
+
 **Request body** 
 ```
 JSON FILE LOCATED AT 
@@ -33,7 +35,9 @@ JSON FILE LOCATED AT
 ```
 
 ### Problem 2 
+
 **Endpoint**: ```http://localhost:3000/api/v1/smart-eq/best-beers-evaluator```
+
 **Request body** 
 ```
 {
