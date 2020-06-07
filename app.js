@@ -38,18 +38,6 @@ app.use((req, res, next) => {
 });
 
 
-
-// models
-let modelsPath = './models'
-fs.readdirSync(modelsPath).forEach(function (file) {
-    if (~file.indexOf('.js')) {
-        // console.log(file)
-        require(modelsPath + '/' + file)
-    }
-})
-// end models
-
-
 // route
 let routesPath = './routes'
 fs.readdirSync(routesPath).forEach(function (file) {
